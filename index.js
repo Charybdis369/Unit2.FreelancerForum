@@ -28,6 +28,9 @@ function render() {
     })
     freelancerContainer.replaceChildren(...freelancerElements)
     
+
+    const averageElement = document.querySelector('#avg-msg')
+    averageElement.innerText = 'Replaced with JS'
 }
 
 function addFreeLancer() {
